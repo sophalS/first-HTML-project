@@ -1,0 +1,373 @@
+
+
+
+a{
+    text-decoration: unset;
+    color: rgb(177, 5, 177);
+    
+}
+a:hover{
+    color:lightskyblue;
+}
+b{
+    color:gold;
+}
+small{
+    color:white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.notic{
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.firstSec{
+    display: flex;
+    background-color: white;
+    height: 60%;
+}
+.laptop,.manhattan{
+    width: 50%;
+}
+h2{
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(201, 253, 104);
+    margin-left: 1.8em;
+    margin-top: 15%;
+}
+.purple{
+    color: rgb(219, 8, 238);
+}
+p{
+    padding-left: 20px;
+}
+
+@media(orientation:landscape) {
+    body{
+        font-size: xx-large;
+        padding: 20px;
+        color: white;
+    }
+    .h-cover{
+        background-image: url(../img/purple.jpg);
+        background-size: cover;
+        
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 15px;
+        padding:auto;
+        width: 100%;
+        height: 20%;
+        border: 2px;
+        background-color: rgb(247, 250, 88);
+    }
+    .container{
+        display: flex;
+    }
+    footer{
+        text-align: center;
+        margin-top: 15px;
+        padding:5px;
+        width: 100%;
+        height: 18vh;
+        border: 2px;
+        background-color: rgb(247, 250, 88);
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .facebookIg{
+        width: 60px;
+        height: 10vh;
+        border-radius: 50px;
+        box-shadow: none;
+    }
+    p{
+        font-size: 2em;
+    }
+    img{
+        width: 500px;
+        border-radius:5px;
+        /* box-shadow: 10px 15px 20px rgb(52, 204, 250); */
+        /* border: 5px solid rgb(52, 204, 250); */
+    }
+
+    form{
+        background-color: rgb(10, 14, 46);
+        width: 100%;
+        height: 100%;
+    }
+    .two{
+        display: flex;
+        width: 10px;
+        height: 3vh;
+        background-color: red;
+    }
+    .pic{
+        width: 300px;
+        height: 60vh;
+    }
+    .cover{
+        box-sizing: border-box;
+        display: flex;
+        width: 50%;
+    }
+    h3{
+        margin: 15px;
+        color: rgb(177, 5, 177);
+        font-size: 30px;
+        text-align: center;
+    }
+    .about p,.my-studying p{
+        margin: 20px;
+        font-size: 1.5em;
+        font-family: sans-serif;
+    }
+    #desktop{
+        width: 100%;
+        height: 60vh;
+    }
+    .my-studying{
+        background: rgb(15, 5, 70);
+    }
+    .secondSec{
+        display: flex;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        font-size: xx-large;
+    }
+   
+    .container-ct{
+        margin: 15px;
+        padding: 15px;
+        
+    }
+   
+    .NE{
+        width: 30em;
+        height: 7vh;
+        border-radius: 5px;
+        border: none;
+        margin-left: 50px;
+    }
+    input,textarea{
+        margin: 15px;
+    }
+    textarea{
+        border-radius: 5px;
+        border: none;
+        width:40em;
+        resize:none;
+    }
+    input[type="reset"]{
+        margin-left: 145px;
+    }
+    .submit{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .cs{
+        width: 15%;
+        height: 7vh;
+        border-radius: 10px;
+        border: none;
+        background-color:rgb(255, 97, 255) ;
+        color: white;
+        font-size: x-large;
+    }
+    input[type="submit"]{
+        box-shadow: 3px 3px 20px rgb(255, 97, 255);
+        font-size: x-large;
+        font-weight: bold;
+    }
+    .female{
+        width: 13%;
+        height: 4vh;
+        margin-left: 5rem;
+    }
+    .male{
+        width: 13%;
+        height: 4vh;
+    }
+    .cs:hover{
+        background: white;
+        color: black;
+    }
+  
+}
+@media(orientation:portrait){
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        font-size:larger;
+
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        margin-top: 15px;
+        padding:auto;
+        width: 100%;
+        height: 4%;
+        border: 2px;
+        background-color: rgb(10, 14, 46);
+    }
+    .container{
+        display: flex;
+    }
+    footer{
+        text-align: center;
+        padding:auto;
+        width: 100%;
+        height: 4%;
+        border: 2px;
+        background-color: rgb(10, 14, 46);
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .facebookIg{
+        width: 40px;
+        height: 7vh;
+        border-radius: 50px;
+        box-shadow: none;
+    }
+    p{
+        color: white;
+        font-size: 1.5em;
+        padding: 10px;
+    }
+    .name{
+        width: 60%;
+        padding: 14px;
+        font-size: 1.7em;
+        font-family:monospace;
+        margin-top: 40px;
+        color: white;
+        background: rgb(6, 1, 78);
+    }
+    #desktop,.logic{
+        width: 100%;
+    }
+    form{
+        background-color: rgb(38, 111, 143);
+    }
+    .two{
+        display: flex;
+        width: 5px;
+        height: 2vh;
+        background-color: red;
+    }
+    .pic{
+        width: 200px;
+        height: 20vh;
+    }
+    .cover{
+        box-sizing: border-box;
+        display: flex;
+        width: 50%;
+    }
+    h2{
+        font-size: larger;
+        margin-left: 16%;
+    }
+    h3{
+        margin: 15px;
+        color: rgb(177, 5, 177);
+        font-size: 20px;
+        text-align: center;
+    }
+   
+    .container-ct{
+        margin: 15px;
+    }
+    .own{
+        width:40% ;
+        height:4%;
+    }
+    .NE{
+        width: 60%;
+        height: 7vh;
+        border-radius: 5px;
+        border: none;
+        margin-left: 50px;
+    }
+    input,textarea{
+        margin: 15px;
+     
+    }
+    textarea{
+        border-radius: 5px;
+        border: none;
+        width:60%;
+        margin-left: 6%;
+        resize:none;
+    }
+    input[type="reset"]{
+        margin-left: 24%;
+        background: orange;
+    }
+    .submit{
+        width: 100%;
+        text-align: center;
+        
+    }
+    .cs{
+        width: 20%;
+        height: 5vh;
+        border-radius: 20px;
+        border: none;
+        background-color:rgb(255, 97, 255) ;
+        color: white;
+       
+    }
+    .cs:hover{
+        background: white;
+        color: black;
+    }
+    input[type="submit"]{
+        box-shadow: 3px 3px 20px rgb(255, 97, 255);
+        font-size:large;
+        font-weight: bold;
+    }
+    label{
+        color: yellow;
+        font-weight: bold;
+    }
+   
+    .female{
+        width: 25%;
+        height: 3vh;
+        margin-left: 3.4rem;
+    }
+    .male{
+        width: 25%;
+        height: 3vh;
+    }
+
+
+}
